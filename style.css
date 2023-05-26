@@ -1,0 +1,49 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+header {
+  width: 100vw;
+  font-family: Brush Script MT;
+  font-weight: bold;
+  color: red;
+  background-color: azure;
+ z-index: -1;
+  position: absolute;
+  width: 100%;
+  margin: -100px auto;
+  padding: 120px 800px;
+  text-align: center;
+  font-size: 100px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+
+.hl{
+  position: absolute;
+  z-index: 99;
+ 
+}
+
+.hl li{
+  display: inline-block;
+  padding: 45px;
+ margin-top: 120px;
+ margin-left: 215px;
+ font-size: 32px ;
+ border-style: solid;
+ border-color: azure;
+ border-radius: 20px;
+ 
+
+}
+
+ul.hl li a:hover {
+  background-color: #9e0000;
+ 
+}
